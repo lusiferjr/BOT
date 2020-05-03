@@ -1,0 +1,75 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hey there",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Can you explain Dijkstra",
+        "intent": "explain_Dijkstra",
+        "entities": []
+      },
+      {
+        "text": "Describe Dijkstra",
+        "intent": "explain_Dijkstra",
+        "entities": []
+      },
+      {
+        "text": "What is dijkstra?",
+        "intent": "explain_Dijkstra",
+        "entities": []
+      },  
+      {
+        "text": "Solve using Dijkstra",
+        "intent": "solve_Dijkstra",
+        "entities": []
+      },
+      {
+        "text": "Find shortest path using Dijkstra",
+        "intent": "solve_Dijkstra",
+        "entities": []
+      },
+        
+        
+      {
+        "text": "Can you explain Linear Regression",
+        "intent": "explain_Linear_Regression",
+        "entities": []
+      },
+      {
+        "text": "Describe Linear Regression",
+        "intent": "explain_Linear_Regression",
+        "entities": []
+      },
+      {
+        "text": "What is Linear Regression?",
+        "intent": "explain_Linear_Regression",
+        "entities": []
+      },  
+      {
+        "text": "Solve using Linear Regression",
+        "intent": "solve_Linear_Regression",
+        "entities": []
+      },
+      {
+        "text": "Implement using Linear Regression",
+        "intent": "solve_Linear_Regression",
+        "entities": []
+      }  
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

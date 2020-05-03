@@ -1,0 +1,61 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greeting",
+        "text": "Hello"
+      },
+      {
+        "intent": "greeting",
+        "text": "Hi"
+      },
+      {
+        "intent": "greeting",
+        "text": "Hey there"
+      },
+      {
+        "intent": "explain_Dijkstra",
+        "text": "Can you explain Dijkstra"
+      },
+      {
+        "intent": "explain_Dijkstra",
+        "text": "Describe Dijkstra"
+      },
+      {
+        "intent": "explain_Dijkstra",
+        "text": "What is dijkstra?"
+      },
+      {
+        "intent": "solve_Dijkstra",
+        "text": "Solve using Dijkstra"
+      },
+      {
+        "intent": "solve_Dijkstra",
+        "text": "Find shortest path using Dijkstra"
+      },
+      {
+        "intent": "explain_Linear_Regression",
+        "text": "Can you explain Linear Regression"
+      },
+      {
+        "intent": "explain_Linear_Regression",
+        "text": "Describe Linear Regression"
+      },
+      {
+        "intent": "explain_Linear_Regression",
+        "text": "What is Linear Regression?"
+      },
+      {
+        "intent": "solve_Linear_Regression",
+        "text": "Solve using Linear Regression"
+      },
+      {
+        "intent": "solve_Linear_Regression",
+        "text": "Implement using Linear Regression"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

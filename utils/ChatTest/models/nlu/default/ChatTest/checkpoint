@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/qwert/Documents/ChatTest/./models/nlu/default/ChatTest/component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "/home/qwert/Documents/ChatTest/./models/nlu/default/ChatTest/component_5_EmbeddingIntentClassifier.ckpt"
