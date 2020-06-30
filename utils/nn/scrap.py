@@ -1,3 +1,9 @@
+'''
+data plotty
+dataiku
+analytical skills
+
+'''
 from bs4 import BeautifulSoup as bs
 import requests as rq
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0"
@@ -45,7 +51,10 @@ def searchgeeks(topic):
                     flag=1
             if flag==1:
                 break
-            ans.append(i.text) #str(i) for html code
+            if i.text:ans.append(i.text) #str(i) for html code
+            if len(ans)==2:
+                ans.append('\nfor more go to the link: '+url2)
+                break
     return ans
 
 
@@ -76,7 +85,10 @@ def cppcode(topic):
         if imp.text.find('Implementation')!=-1:
             code=''
             while imp and imp.name!='pre':
-                code+=str(imp.nextSibling)
+                if imp.nextSibling.name:
+                    code+=imp.nextSibling.text  #str(imp.nextSibling) for html code
+                else:
+                    code+='\n' #del this for html
                 imp=imp.nextSibling
             code = page2.h1.text,code
             break
